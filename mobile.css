@@ -1,0 +1,30 @@
+@media screen and (max-width:578px) {
+    .courses-container {
+       font-size: 1rem;
+    }
+  }
+  @media screen and (max-width:576px)  {
+    .course {
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+    .course .course-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+ 
+    img {
+        width: 250px;
+        height: 250px;
+    }
+  } 
+
+  @media screen and (max-width:576px) {
+    .flex-body {
+        display: inline-block;
+      }
+      img {
+        width:362px;
+      }
+  }

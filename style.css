@@ -31,28 +31,38 @@ h2 {
 }
 .content-box {
     border: 1px solid rgba(0, 0, 0, 0.2);
-
-  
 }
-
-@media screen and (max-width:578px) {
-    .courses-container {
-       font-size: 1rem;
-    }
+ .flex {
+    margin-top: 5rem;
+ }
+  .flex-body {
+    display: flex;
   }
-  @media screen and (max-width:576px)  {
-    .course {
-       display: grid;
-       grid-template-columns: 1fr;
-    }
-    .course .course-body {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
- 
-    img {
-        width: 250px;
-        height: 250px;
-    }
-  } 
+ .content {
+    padding: 8rem  3rem;
+    background-color: rgb(228, 240, 237);
+ }
+ .inline {
+    display: flex;
+    grid-gap:1.3rem;
+    padding: 0 1rem;
+    margin-top: 3rem;
+ }
+ h1 {
+    font-weight: bold;
+ }
+ h4 {
+    color: grey;
+ }
+ .btn-light {
+    background:rgb(77, 152, 221);
+    font-size:1.5rem;
+    padding: 4px;
+    margin-top: 3rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
