@@ -66,3 +66,32 @@ h2 {
     border-radius: 5px;
     font-weight: bold;
  }
+ .join {
+    margin-top: 7rem;
+    background-color:rgb(19, 176, 238) ;
+ }
+ .join-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 4.5rem;
+ }
+ div {
+    padding: 5px 3px;
+ }
+
+.links {
+    text-decoration: none;
+  
+ }
+ .btn-register {
+    padding: .6rem 1.5rem;
+    background: #fff;
+    color: rgb(96, 149, 219);
+    font-size: 1.4rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+ }
