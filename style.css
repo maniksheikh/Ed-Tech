@@ -21,13 +21,17 @@ h2 {
    
 }
 .btn-lights {
-    padding: .4rem .975rem;
+  padding: .4rem .975rem;
    background:rgb(77, 152, 221);
-   font-size: .7rem;
+   font-size:1rem;
    color: white;
    outline: none;
    border: none;
    border-radius: 5px;
+}
+.btn-lights:hover {
+   background: greenyellow;
+   color: black;
 }
 .content-box {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -66,6 +70,9 @@ h2 {
     border-radius: 5px;
     font-weight: bold;
  }
+ .btn-light:hover {
+   background: green;
+ }
  .join {
     margin-top: 7rem;
     background-color:rgb(19, 176, 238) ;
@@ -95,6 +102,9 @@ h2 {
     border: none;
     border-radius: 10px;
  }
+ .btn-register:hover {
+   background: greenyellow;
+ }
 
  .accordion {
    text-align: center;
@@ -104,4 +114,52 @@ h2 {
  h1 {
    padding: 1rem;
    font-weight: bold;
+ }
+
+ .container-logo {
+   text-align: center;
+   justify-content: center;
+   margin-top: 5rem;
+   font-weight: bold;
+ }
+ .logo {
+   display: flex;
+   
+   align-items: center;
+   justify-content: space-between;
+   gap: 1.5rem;
+ }
+ .logo-img img{
+   text-align: center;
+  width: 150px;
+ }
+ .footer-content {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5rem;
+   padding:4rem;
+   background-color: black;
+   color: #fff;
+ }
+ h2 {
+   font-weight: bold;
+   font-size: 2.8rem;
+ }
+ h5 {
+   padding: 8px 0;
+ }
+ .footer {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding: 0 4rem;
+ }
+ i {
+   padding: 5px 1rem;
+ }
+ i:hover {
+    background: rgb(17, 214, 132);
+    color: black;
  }
