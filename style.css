@@ -95,3 +95,13 @@ h2 {
     border: none;
     border-radius: 10px;
  }
+
+ .accordion {
+   text-align: center;
+   justify-content: center;
+  padding-top: 7rem;
+ }
+ h1 {
+   padding: 1rem;
+   font-weight: bold;
+ }
