@@ -32,6 +32,7 @@ h2 {
 .btn-lights:hover {
    background: greenyellow;
    color: black;
+   transition: 2s;
 }
 .content-box {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -52,13 +53,28 @@ h2 {
     padding: 0 1rem;
     margin-top: 3rem;
  }
+ .carousel-caption  {
+  
+   margin-bottom: 5rem;
+ }
  h1 {
+   color: black;
+   font-size: 3rem;
     font-weight: bold;
+ }
+ p {
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
  }
  h4 {
     color: grey;
  }
+ .inner {
+   color: gray;
+ }
  .btn-light {
+   cursor: pointer;
     background:rgb(77, 152, 221);
     font-size:1.5rem;
     padding: 4px;
@@ -72,6 +88,7 @@ h2 {
  }
  .btn-light:hover {
    background: green;
+   transition: 2s;
  }
  .join {
     margin-top: 7rem;
@@ -104,6 +121,7 @@ h2 {
  }
  .btn-register:hover {
    background: greenyellow;
+   transition: 2s;
  }
 
  .accordion {
@@ -157,9 +175,11 @@ h2 {
    padding: 0 4rem;
  }
  i {
+   border-radius:40px;
    padding: 5px 1rem;
  }
  i:hover {
     background: rgb(17, 214, 132);
     color: black;
+    transition: 1s;
  }
